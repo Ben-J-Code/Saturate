@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metadata-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Title-->
+    <title>Saturate</title>
+    
+    <!--CSS Linker-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Google Fonts Linker-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="popup-container">
+        <p class="header">Saturate</p>
+        <p class="option">Default Setting</p>
+        <label class="custom-checkbox">
+            <input type="checkbox" id="defaultCheckbox">
+            <span class="checkmark"></span>
+            <span id="defaultCheckboxTxt">Loading...</span>
+        </label>
+        <div class="slider-container">
+            <div class="slider-value" id="defaultSliderValue">Loading...</div>
+
+            <input
+                type="range"
+                id="defaultSlider"
+                min="-1"
+                max="1"
+                step="0.01"
+                value="0"
+            >
+
+            <button class="resetSlider" id="resetDefaultSlider">Reset</button>
+        </div>
+        <p class="option">This Website's Setting</p>
+        <label class="custom-checkbox">
+            <input type="checkbox" id="websiteCheckbox" checked>
+            <span class="checkmark"></span>
+            <span id="websiteCheckboxTxt">Loading...</span>
+        </label>
+        <div class="slider-container">
+            <div class="slider-value" id="websiteSliderValue">Loading...</div>
+
+            <input
+                type="range"
+                id="websiteSlider"
+                min="-1"
+                max="1"
+                step="0.01"
+                value="0"
+            >
+
+            <button class="resetSlider" id="resetWebsiteSlider">Reset</button>
+        </div>
+        <div class="padding"></div>
+    </div>
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+</html>
