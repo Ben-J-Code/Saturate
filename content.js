@@ -1,7 +1,7 @@
 async function applySaturation() {
     try {
         const url = new URL(window.location.href);
-        const domain = url.hostname;
+        const domain = url.hostname.replace(/^www\./, "");
 
         function getData(domain) {
             return chrome.storage.local.get(["data"]).then((result) => {
@@ -32,7 +32,6 @@ async function applySaturation() {
                 } else {
                     saturation = 1
                 }
-                console.log(Number(saturation) + 1);
 
                 document.documentElement.style.setProperty(
                     "filter",
