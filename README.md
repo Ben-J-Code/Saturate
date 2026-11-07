@@ -23,7 +23,7 @@
 3. You should see a toggle called 'Developer mode', this will need to be turned on if not already.
 4. A set of 'Developer options' should show up. You should click on 'Load unpacked'.
 5. Navigate though your files to where you downloaded Saturate, select the folder and click 'Select Folder'.
-6. The extension should now be installed. **Make sure to restart for the extension to work properly.**
+6. The extension should now be installed. Make sure to restart your browser for the extension to work properly.
 
 
 
