@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Saturate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Give your browser a vibrancy boost with Saturate!\nSaturate individual or all websites.",
     "icons": {
         "48": "icons/saturate_icon_48.png",
